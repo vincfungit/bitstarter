@@ -7,7 +7,7 @@ fs.readFileSync('./index.html', function(err,data){
 	console.log(data);
 });
 
-var buf = new Buffer('testing ...');
+// var buf = new Buffer('testing ...');
 app.get('/', function(request, response) {
 	response.send('testing');
 });
